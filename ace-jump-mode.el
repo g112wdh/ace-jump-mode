@@ -834,7 +834,7 @@ buffer."
           '(digit alpha))
     (setq ace-jump-query-char head-char)
     (setq ace-jump-current-mode 'ace-jump-word-mode)
-    (ace-jump-do (concat "\\<" (make-string 1 head-char))))
+    (ace-jump-do (concat "\\<\\(\\$\\)?" (make-string 1 head-char))))
    ((eq (ace-jump-char-category head-char)
         'punc)
     ;; we do not query punctuation under word mode
