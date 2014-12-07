@@ -77,3 +77,5 @@ How to install it?
 I want to know more about customized configuration?
 ---------------------------------------------------
 See [FAQ ](http://github.com/winterTTr/ace-jump-mode/wiki/AceJump-FAQ)
+
+dev by wdh
